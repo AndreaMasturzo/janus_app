@@ -56,7 +56,7 @@ struct CircleWaveView: View {
         GeometryReader { geo in
             ZStack {
                 Circle()
-                    .stroke(Color.accentColor, lineWidth: 0.025 * min(geo.size.width, geo.size.height))
+                    .fill(.ultraThinMaterial)
                     .overlay(
                         Wave(offset: Angle(degrees: self.waveOffset.degrees), percent: Double(percent)/100)
                             .fill(Color.accentColor)
