@@ -1,5 +1,5 @@
 //
-//  DetailsView.swift
+//  PremiView.swift
 //  JanusApp
 //
 //  Created by Raffaele Siciliano on 19/07/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct DetailsView: View {
+struct PremiView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    DetailsView()
+    PremiView()
 }
