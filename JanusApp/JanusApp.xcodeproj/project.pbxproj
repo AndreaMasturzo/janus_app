@@ -13,6 +13,7 @@
 		43C805B52C4ABE51001B2527 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C805B42C4ABE51001B2527 /* Preview Assets.xcassets */; };
 		43C805B72C4ABE51001B2527 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C805B62C4ABE51001B2527 /* Persistence.swift */; };
 		43C805BA2C4ABE51001B2527 /* JanusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C805B82C4ABE51001B2527 /* JanusApp.xcdatamodeld */; };
+		43C805C12C4AC02E001B2527 /* SphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C805C02C4AC02E001B2527 /* SphereView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		43C805B42C4ABE51001B2527 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43C805B62C4ABE51001B2527 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		43C805B92C4ABE51001B2527 /* JanusApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JanusApp.xcdatamodel; sourceTree = "<group>"; };
+		43C805C02C4AC02E001B2527 /* SphereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				43C805AD2C4ABE50001B2527 /* JanusAppApp.swift */,
 				43C805AF2C4ABE50001B2527 /* ContentView.swift */,
+				43C805C02C4AC02E001B2527 /* SphereView.swift */,
 				43C805B12C4ABE51001B2527 /* Assets.xcassets */,
 				43C805B62C4ABE51001B2527 /* Persistence.swift */,
 				43C805B82C4ABE51001B2527 /* JanusApp.xcdatamodeld */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C805C12C4AC02E001B2527 /* SphereView.swift in Sources */,
 				43C805B72C4ABE51001B2527 /* Persistence.swift in Sources */,
 				43C805B02C4ABE50001B2527 /* ContentView.swift in Sources */,
 				43C805AE2C4ABE50001B2527 /* JanusAppApp.swift in Sources */,
